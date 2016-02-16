@@ -1,0 +1,134 @@
+/*Write your CSS below!*/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #f6b0b1;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+.jumbotron {
+  background: url(https://photos-5.dropbox.com/t/2/AAD1URDZqDf815mLgz5sHxfyNOcS5YhItgXLYlTYGRVKYg/12/128884803/jpeg/32x32/1/_/1/2/2015-10-05%2015.46.52.jpg/EL_HnWMY7TUgBygH/hjuWaP6mFTXnlS8KTl1hi9rir5-YiM8m1y-MC-7dDEI?size=1024x768&size_mode=3);
+  height: 500px;
+}
+
+.nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.nav li {
+  color: #838280;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  display: inline;
+}
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #f6b0b1;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.btn-main {
+  background-color: #838280;
+  color: #f6b0b1;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  float: left;
+  width: 33%;
+  font-family: 'Lobster', sans-serif;
+  color: #838280;
+  text-align: center;
+}
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 650;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+.btn-default {
+  border: 1px solid #e82e55;
+  background-color: white;
+  color: #e82e55;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;	
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #f6b0b1;
+  color: #838280;
+  padding: 20px 0;
+}
+
+.footer p {
+  font-family: cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+
+@media (max-width: 500px) {
+  .main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
