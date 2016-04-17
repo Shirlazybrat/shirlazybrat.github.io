@@ -38,6 +38,7 @@ color: black;
 h1 {
 	font-size: 5em;
   	margin: 0px 30px 200px 30px;
+    text-shadow: 2px 3px rgba(247, 4, 247, 0.5);
 }
 
 p {
